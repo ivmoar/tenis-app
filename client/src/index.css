@@ -1,0 +1,21 @@
+body {
+  background-color: aquamarine;
+}
+
+.navbar-light .navbar-brand {
+  color: #461209; /* Cambia el color del texto del Navbar */
+}
+
+.card-title {
+  color: #787e83; /* Cambia el color del título en las tarjetas */
+}
+
+footer {
+  background-color: #030f1b; /* Cambia el color de fondo del footer */
+}
+
+.custom-offcanvas {
+  width: auto; /* Ajusta el ancho automáticamente según el contenido */
+  max-width: 150px; /* Define un máximo ancho si lo deseas */
+  min-width: 100px; /* Define un mínimo ancho si lo deseas */
+}
