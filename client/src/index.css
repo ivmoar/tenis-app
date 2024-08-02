@@ -1,21 +1,61 @@
-body {
-  background-color: aquamarine;
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.navbar-light .navbar-brand {
-  color: #461209; /* Cambia el color del texto del Navbar */
+body {
+  background-color: whitesmoke;
+  height: 100%;
 }
 
 .card-title {
   color: #787e83; /* Cambia el color del título en las tarjetas */
 }
 
-footer {
-  background-color: #030f1b; /* Cambia el color de fondo del footer */
-}
-
 .custom-offcanvas {
   width: auto; /* Ajusta el ancho automáticamente según el contenido */
-  max-width: 150px; /* Define un máximo ancho si lo deseas */
-  min-width: 100px; /* Define un mínimo ancho si lo deseas */
+  /* max-width: 150px; /* Define un máximo ancho si lo deseas */
+  /* min-width: 100px; /* Define un mínimo ancho si lo deseas */
+}
+
+.custom-menu {
+  background-color: whitesmoke;
+}
+
+.custom-menu-text {
+  color: black;
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Div-Center {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  flex: 1;
+  margin-top: 20px;
+}
+
+.Div-ButtonHome {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.custom-card {
+  width: 100%;
+}
+
+.custom-center-button {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%; /* Redondea los bordes para hacer el botón circular */
+  background-color: #007bff; /* Color de fondo */
+  color: white;       /* Color del texto */
+  border: none;       /* Sin borde */
+  display: flex;      /* Usado para centrar el texto dentro del botón */
+  align-items: center; /* Centra el texto verticalmente */
+  justify-content: center;
 }

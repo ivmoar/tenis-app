@@ -1,13 +1,13 @@
-import Content from './Components/Components';
+import Card from './Components/HomeCard';
 import Menu from './Components/Menu';
-import Footer from './Components/Footer';
+import MenuButton from './Components/MenuButton';
 
 function App() {
   return (
     <div className="App">
-      <div className="Menu"><Menu /></div>
-      <Content />
-      <Footer />
+      <Menu />
+      <div className="Div-Center"><Card /></div>
+      <div className="Div-ButtonHome"><MenuButton /></div>
     </div>
   );
 }
