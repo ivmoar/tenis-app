@@ -38,10 +38,15 @@ body {
 }
 
 .Div-ButtonHome {
-  display: flex;
+  display: flex; 
   justify-content: center; /* Centra horizontalmente */
   margin-top: 10px;
   margin-bottom: 60px;
+  position: fixed; /* Fija el div en la pantalla */
+  bottom: 0;       /* Alinea el div con el borde inferior de la ventana */
+  left: 0;         /* Alinea el div con el borde izquierdo de la ventana */
+  width: 100%;
+  z-index: 1000;
 }
 
 .custom-card {
@@ -58,4 +63,8 @@ body {
   display: flex;      /* Usado para centrar el texto dentro del botón */
   align-items: center; /* Centra el texto verticalmente */
   justify-content: center;
+}
+
+.custom-dropdown-menu {
+  min-width: min-content;
 }

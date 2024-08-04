@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { Container, Row, Col} from 'react-bootstrap';
 
-function TextExample() {
+function ClassCard() {
   return (
     <Container fluid>
         <Row>
@@ -32,4 +32,4 @@ function TextExample() {
   );
 }
 
-export default TextExample;
+export default ClassCard;

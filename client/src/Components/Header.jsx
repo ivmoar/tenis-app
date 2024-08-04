@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-function Menu() {
+function Header() {
   return (
     <Navbar expand="lg" className="custom-menu">
       <Container fluid>
@@ -23,4 +23,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default Header;
