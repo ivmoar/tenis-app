@@ -17,3 +17,17 @@
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
+
+
+
+
+
+App.js:
+<div className="App">
+      <Header />
+      <div className="Div-Center"><ClassCard /></div>
+      <div className="Div-Center"><Home /></div>
+      <div className="Div-Center"><MyCalendar /></div>
+      
+      <div className="Div-ButtonHome"><MenuButton /></div>
+    </div>

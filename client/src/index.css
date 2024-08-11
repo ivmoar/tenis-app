@@ -1,29 +1,39 @@
+body {
+  background-color: whitesmoke;
+  height: 100%;
+}
+
 .App {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-body {
-  background-color: whitesmoke;
-  height: 100%;
+.content-wrap {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.MenuFooter {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  background-color: rgb(194, 194, 194);
+}
+
+.menu-image {
+  max-width: 100%; /* Asegura que la imagen no se desborde de la columna */
+  height: auto;    /* Mantiene la relación de aspecto de la imagen */
 }
 
 .card-title {
   color: #787e83; /* Cambia el color del título en las tarjetas */
 }
 
-.custom-offcanvas {
-  width: auto; /* Ajusta el ancho automáticamente según el contenido */
-  /* max-width: 150px; /* Define un máximo ancho si lo deseas */
-  /* min-width: 100px; /* Define un mínimo ancho si lo deseas */
-}
-
-.custom-menu {
+.custom-header {
   background-color: whitesmoke;
 }
 
-.custom-menu-text {
+.custom-header-text {
   color: black;
   text-align: right;
   font-size: 25px;
@@ -37,34 +47,6 @@ body {
   margin-top: 20px;
 }
 
-.Div-ButtonHome {
-  display: flex; 
-  justify-content: center; /* Centra horizontalmente */
-  margin-top: 10px;
-  margin-bottom: 60px;
-  position: fixed; /* Fija el div en la pantalla */
-  bottom: 0;       /* Alinea el div con el borde inferior de la ventana */
-  left: 0;         /* Alinea el div con el borde izquierdo de la ventana */
-  width: 100%;
-  z-index: 1000;
-}
-
 .custom-card {
   width: 100%;
-}
-
-.custom-center-button {
-  height: 90px;
-  width: 90px;
-  border-radius: 50%; /* Redondea los bordes para hacer el botón circular */
-  background-color: #007bff; /* Color de fondo */
-  color: white;       /* Color del texto */
-  border: none;       /* Sin borde */
-  display: flex;      /* Usado para centrar el texto dentro del botón */
-  align-items: center; /* Centra el texto verticalmente */
-  justify-content: center;
-}
-
-.custom-dropdown-menu {
-  min-width: min-content;
 }
