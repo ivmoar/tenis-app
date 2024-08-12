@@ -7,13 +7,9 @@ function MyCalendar() {
     <Container fluid>
       <Row>
           <Col>
-              <h1>Mi Calendario</h1>
-          </Col>
-      </Row>
-      <Row>
-          <Col>
               <Card className='custom-card'>
                   <Card.Body>
+                    <Card.Title className='card-title'>Mi Calendario</Card.Title>
                     <Calendar />
                   </Card.Body>
               </Card>

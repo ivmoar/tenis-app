@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ClassCard from './Components/ClassCard';
 import Header from './Components/Header';
 import MyCalendar from './Components/MyCalendar';
 import Home from './Components/Home';
@@ -9,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
+        <div className='MenuHeader'><Header /></div>
         <div className="content-wrap">
           <Routes>
             <Route path="/" element={<Home />} />
