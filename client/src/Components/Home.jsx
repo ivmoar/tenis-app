@@ -32,7 +32,7 @@ function Home() {
             <Col>
                 <Card className='custom-card'>
                     <Card.Body>
-                        <Card.Title className='card-title'>Tu resumen mensual</Card.Title>
+                        <Card.Title className='card-title'>Mi resumen mensual</Card.Title>
                         <Row>
                             <Col>
                                 <Card className='inline-blue-card'>

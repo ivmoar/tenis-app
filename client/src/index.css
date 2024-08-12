@@ -14,7 +14,7 @@ body {
 .content-wrap {
   flex: 1;
   overflow-y: auto;
-  margin-bottom: 120px;
+  margin-bottom: 110px;
   margin-top: 110px;
 }
 
@@ -27,11 +27,28 @@ body {
   bottom: 0;
   width: 100%;
   z-index: 1000;
+  border-top: 1px solid black;
 }
 
 .menu-image {
   max-width: 100%; /* Asegura que la imagen no se desborde de la columna */
   height: auto;    /* Mantiene la relación de aspecto de la imagen */
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item span {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.menu-link {
+  text-decoration: none; /* Elimina la línea debajo del texto */
+  color: inherit;        /* Asegura que el color del texto sea el mismo que el del icono o deseado */
 }
 
 /***************************************************************************** CARDS **********************************************************************/
@@ -82,7 +99,7 @@ body {
 }
 
 .custom-header {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .custom-header-text {

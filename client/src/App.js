@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header';
 import MyCalendar from './Components/MyCalendar';
 import Home from './Components/Home';
-import MenuFooter from './Components/Menu'
+import MenuFooter from './Components/Menu';
+import Classes from './Components/Classes';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Calendar" element={<MyCalendar />} />
             <Route path="/Alumns" element={<Home />} />
-            <Route path="/Classes" element={<Home />} />
+            <Route path="/Classes" element={<Classes />} />
           </Routes>
         </div>
         <div className='MenuFooter'><MenuFooter /></div>
