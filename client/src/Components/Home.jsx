@@ -1,6 +1,6 @@
-import { Container, Row, Col} from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import moment from 'moment';
+
 
 function Home() {
     return (
@@ -9,20 +9,10 @@ function Home() {
             <Col>
                 <Card className='custom-card'>
                     <Card.Body>
-                        <Card.Title className='card-title'>Lunes, 12 de Agosto</Card.Title>
+                        <h1>{moment().format('dddd, D MMMM')}</h1>
+                        <hr />
                         <Card.Text>¡Tienes 0 clases para hoy!</Card.Text>
                         <Button>Ir a Mis Clases</Button>
-                    </Card.Body>
-                </Card>
-            </Col>
-        </Row>
-        <br />
-        <Row>
-            <Col>
-                <Card className='custom-card'>
-                    <Card.Body>
-                        <Card.Title className='card-title'>Mensajes</Card.Title>
-                        <Card.Text>¡No tienes ningún mensaje!</Card.Text>
                     </Card.Body>
                 </Card>
             </Col>

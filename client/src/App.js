@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header';
-import MyCalendar from './Components/MyCalendar';
 import Home from './Components/Home';
+import Calendar from './Components/Calendar';
 import MenuFooter from './Components/Menu';
 import Classes from './Components/Classes';
+import Alumns from './Components/Alumns';
 
 function App() {
   return (
@@ -13,12 +14,12 @@ function App() {
         <div className="content-wrap">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Calendar" element={<MyCalendar />} />
-            <Route path="/Alumns" element={<Home />} />
+            <Route path="/Calendar" element={<Calendar />} />
+            <Route path="/Alumns" element={<Alumns />} />
             <Route path="/Classes" element={<Classes />} />
           </Routes>
         </div>
-        <div className='MenuFooter'><MenuFooter /></div>
+        <div className='MenuFooter bg-dark'><MenuFooter /></div>
       </Router>
     </div>
   );

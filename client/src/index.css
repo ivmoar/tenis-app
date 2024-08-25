@@ -22,7 +22,6 @@ body {
 .MenuFooter {
   padding-bottom: 30px;
   padding-top: 10px;
-  background-color: white;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -49,6 +48,10 @@ body {
 .menu-link {
   text-decoration: none; /* Elimina la línea debajo del texto */
   color: inherit;        /* Asegura que el color del texto sea el mismo que el del icono o deseado */
+}
+
+.icons {
+  font-size: 35px;
 }
 
 /***************************************************************************** CARDS **********************************************************************/
@@ -98,13 +101,33 @@ body {
   z-index: 1000;
 }
 
-.custom-header {
-  background-color: whitesmoke;
-}
-
 .custom-header-text {
-  color: black;
+  color: whitesmoke;
   text-align: right;
   font-size: 25px;
   font-weight: bold;
+}
+
+.custom-header {
+  padding-top: 15px;
+}
+
+/* Estilo para hacer que el logo sobresalga del navbar */
+#image-logo {
+  position: absolute;
+  left: 0;
+  top: -0;
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 100px;
+  height: 100px;
+  z-index: 1000; /* Asegurarse de que el logo esté por encima de otros elementos */
+}
+
+/***************************************************************************** CLASSES **********************************************************************/
+.my-button-group {
+  width: 100%;
+  color: whitesmoke;
+  margin-bottom: 15px;
+  margin-top: 5px;
 }

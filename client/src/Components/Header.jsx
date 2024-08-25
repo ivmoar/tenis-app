@@ -4,16 +4,14 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <Navbar expand="lg" className="custom-header">
+    <Navbar expand="lg" className="custom-header bg-dark">
       <Container fluid>
         <Navbar.Brand>
           <Link to="/">
             <img
+              id="image-logo"
               alt="logo-club"
               src="/favicon.png"
-              width="70"
-              height="70"
-              className="d-inline-block align-top"
             />
           </Link>
         </Navbar.Brand>
