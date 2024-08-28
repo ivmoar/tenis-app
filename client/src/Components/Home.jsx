@@ -22,7 +22,8 @@ function Home() {
             <Col>
                 <Card className='custom-card'>
                     <Card.Body>
-                        <Card.Title className='card-title'>Mi resumen mensual</Card.Title>
+                        <h1>Mi Resumen Mensual</h1>
+                        <hr />
                         <Row>
                             <Col>
                                 <Card className='inline-blue-card'>

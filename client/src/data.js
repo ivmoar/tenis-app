@@ -15,5 +15,9 @@ export const classes = [
   { id: 1, date: '2024-08-25', time: '18:30', court: 5, participants: ['Lucía Aguilar', 'Luis Fernando', 'David Acebedo', 'Leandro Moreno'] },
   { id: 2, date: '2024-08-26', time: '17:00', court: 2, participants: ['Ana Pérez', 'Carlos Martínez'] },
   { id: 3, date: '2024-08-27', time: '19:00', court: 3, participants: ['Marta Fernández'] },
-  { id: 4, date: '2024-08-22', time: '19:00', court: 3, participants: ['Marta Fernández'] }
+  { id: 4, date: '2024-08-28', time: '19:00', court: 3, participants: ['Marta Fernández'] },
+  { id: 5, date: '2024-08-28', time: '19:00', court: 3, participants: ['Marta Fernández'] },
+  { id: 6, date: '2024-08-29', time: '19:00', court: 3, participants: ['Marta Fernández'] },
+  { id: 7, date: '2024-08-30', time: '19:00', court: 3, participants: ['Marta Fernández'] },
+  { id: 8, date: '2024-08-31', time: '19:00', court: 3, participants: ['Marta Fernández'] }
 ];
